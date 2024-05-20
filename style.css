@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+* img{
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+}
+
+
+.learnmore{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 0;
+    background-color: #f7f8f9;
+    grid-column: 1/span 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+.learnmore > *{
+    width: 85%;
+}
+p{
+    color: #a2a9ad;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+h4{
+    color: #333333;
+    font-family: "Arvo", serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin:20px 0;
+}
+a{
+    color: #27b9c2;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.iphonelanding{
+    display: flex;
+    width:80% ;
+    margin: auto;
+    padding-top: 40px;
+    justify-content: space-between;
+    grid-column: 1/span 4;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+}
+.iphone{
+    width: 35%;
+}
+.iphone h4{
+    font-size: 24px;
+}
+h6{
+    font-size: 14px;
+    color: #a2a9ad;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.landing{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.landing img{
+    width: 250px;
+}
+
+
+.our{
+    text-align: center;
+    background-color: #f05638;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1/span 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.our h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.our a{
+    color:#ffc80a ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.our img{
+    width: 250px;
+}
+.games{
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f8f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 3/span 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+.games img{
+    width: 190px;
+}
+.games h4{
+    font-size: 25px;
+}
+.games a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.imacapple{
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/span 4;
+    grid-row-start:4 ;
+    grid-row-end: 5;
+}
+.imac{
+    width: 40%;
+    padding: 40px 40px 0;
+    box-sizing: border-box;
+}
+.imac img{
+    width:160px ;
+}
+.imac h4{
+    font-size: 24px;
+}
+.apple{
+    width: 45%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.apple a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.connect{
+    background-color: #38d5f4;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/span 2;
+    grid-row-start:5 ;
+    grid-row-end: 6;
+    overflow: hidden;
+}
+.subconnect{
+    background-color: #35cfed;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+}
+.subconnect h4{
+    font-size: 20px;
+    color: white;
+}
+.twit img{
+    width: 40px;
+}
+.meet{
+    background-color: #8f76bc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0 ;
+    overflow: hidden;
+    grid-column: 3/span 2;
+    grid-row-start:5 ;
+    grid-row-end: 7;
+}
+.submeet{
+    background-color: #8166b0;
+    padding: 20px 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.submeet img{
+    width: 85%;
+}
+.submeet p{
+    color: white;
+}
+.meet h4{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+.meet h6{
+    color: white;
+    margin: 0;
+    padding:0 20px;
+}
+.popular{
+    display: flex;
+    align-items: center;
+    background-color: #8b72b6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 2px 10px;
+}
+.popular img{
+    width: 15px;
+}
+.popular p{
+    font-size: 10px;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+.meet a{
+    background-color: #ffc80a;
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+.much{
+    background-color: #93b6b7;
+    position: relative;
+    padding: 70px 20px 0;
+    text-align: center;
+    grid-column: 1/span 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.much h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 50px 0;
+}
+.best{
+    background-color: #fa684f;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-radius: 5px;
+}
+.best p{
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+.images{
+    width: 100%;
+    background-image: url(images/ux.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.lap{
+    width: 80%;
+    margin: auto;
+}
+.lap img{
+    width: 100%;
+}
+
+
+.experiance{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    grid-column: 1/span 4;
+    grid-row-start:7 ;
+    grid-row-end: 8;
+}
+.secpopular{
+    background-color: #7bc424;
+    position: static;
+    border-radius: 5px;
+}
+.secpopular p{
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+.experiance h4{
+    font-size: 22px;
+}
+
+
+.morethan{
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+    grid-column: 1/span 4;
+    grid-row-start:8 ;
+    grid-row-end: 9;
+
+}
+.morethan img{
+    width: 150px;
+}
+.morethan h4{
+    padding-top: 50px;
+    width: 200px;
+    font-size: 22px;
+    color: white;
+}
+
+
+/* media */
+
+@media (min-width:990px){
+    .container{
+        grid-template-areas: 
+        "il il lm lm"
+        "il il lm lm"
+        "our ic ic meet"
+        "our ic ic meet"
+        "game much much meet"
+        "game much much meet"
+        "conn ex more more";
+    }
+    .learnmore{
+        grid-area: lm;
+    }
+    .iphonelanding{
+        grid-area: il;
+    }
+    .our{
+      grid-area: our;
+    }
+    .imacapple{
+        grid-area: ic;
+    }
+    .games{
+        grid-area: game;
+    }
+    .much{
+       grid-area: much;
+       padding: 30px 20px 0;
+    }
+    .much h4{
+        padding: 10px 0;
+    }
+    .meet{
+       grid-area: meet;
+    }
+    .connect{
+      grid-area: conn;
+      padding: 0;
+    }
+    .experiance{
+      grid-area: ex;
+    }
+    .morethan{
+       grid-area: more;
+    } 
+
+}
